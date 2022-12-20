@@ -9,71 +9,67 @@
 </head>
 
 <body>
-
-
-    <div>
+    <form action="">
         <h1>Basic HTML Form</h1>
-
-        <div className="fdiv">
-            <form>
-                <label>Name</label>
-                <br><br>
-                <label>First Name</label>
-                <input type="text" />
-                <br><br>
-                <label>Last Name</label>
-                <input type="text" />
-            </form>
-        </div>
-
-
-      
-
-        <p>Other Questions</p>
-        <p>Choose a drink: </p> 
-             <form>
-           
-                 <input type="radio" id="coffee" name="r" value="coffee">
-                  <label for="coffee">coffee</label><br>
-                  <input type="radio" id="tea" name="r" value="tea">
-                  <label for="tea">tea</label><br>
-                  <input type="radio" id="hot" name="r" value="hot">
-                  <label for="hot">hot</label>
-                <br>
-                <br>
-             
-
-  
-             <input type="checkbox" value="Chocolate" />
-            <label for="vehicle1"> Chocolate</label><br>
-            <input type="checkbox" value="Chocolate Pudding" />
-            <label for="vehicle2"> Chocolate Pudding</label><br>
-            <input type="checkbox" value="Chocolate Pcanut Butter" />
-            <label for="vehicle3"> Chocolate Pcanut Butter</label><br>
-            <input type="checkbox" value="Vanilla" />
-            <label for="vehicle3"> Vanilla</label><br>
-            <input type="checkbox" value="Strawberry" />
-            <label for="vehicle3"> Strawberry</label><br><br>
-
-            <label>Select a School: </label>
-            <select name="School" id="Schools">
-                <option value="Harvard">Harvard</option>
-                <option value="xxx">xxx</option>
-                <option value="yyy">yyy</option>
-                <option value="ooo">ooo</option>
-            </select>
-            <br><br>
-
-            <label>Please provide comments: </label>
-            <textarea rows="4" cols="50" /></textarea>
+        <section class="name">
+            <h3>Name</h3>
             <br>
-            <input type="submit" />
-            </form>
+            <label for="firstName">First Name</label>
+            <br>
+            <input type="text" name="firstName">
+            <br>
+            <label for="lastName">Last Name</label>
+            <br>
+            <br>
+            <input type="text" name="lastName">
+        </section>
 
+        <section class="otherQuestion">
+            <h3>Other Question</h3>
+            <br>
+            <h4>Choose a drink :</h4>
+            <input type="radio" name="Question">
+            <label for="">coffee</label>
+            <br>
+            <input type="radio" name="Question">
+            <label for="">tea</label>
+            <br>
+            <input type="radio" name="Question">
+            <label for="">hot chocolate</label>
+            <br>
+            <br>
+            <h4>what ice cream do you like ?</h4>
+            <input type="checkbox">
+            <label for="">Chocolate </label>
+            <br>
+            <input type="checkbox">
+            <label for="">Chocolate Pudding</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Chocolate Peanut Butter</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Vanilla</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Strawberry</label>
+            <br>
+            <br>
+            <h4>Select :</h4>
+            <select name="scho">
+               <option value="hh">hh</option>
+               <option value="vv">vv  </option>
+               <option value="ll">ll  </option>
+               <option value="oo">oo  </option>
+            </select>
+            <br>
+            <br>
+            <h4>Please Provide Comments :  </h4>
+            <textarea name="" id="" cols="40" rows="5"></textarea>
 
-        
-    </div>
-
+        </section>
+        <input type="submit" value="submit">
+    </form>
 </body>
 
-</html> -->
+</html> 

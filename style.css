@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 700px;
+    margin: 100px auto;
+    text-align: left;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.name {
+    margin-top: 40px;
+}
+
+.name,
+.otherQuestion {
+    position: relative;
+    width: 650px;
+    margin: 15px auto;
+    margin-bottom: 0px;
+    border: 1px solid black;
+    padding: 15px 10px;
+}
+
+.name h3,
+.otherQuestion h3 {
+    position: absolute;
+    left: 12px;
+    top: -13px;
+    background-color: white;
+}
+
+input[value="submit"] {
+    margin-top: 20px;
+    padding: 0 5px;
+}
